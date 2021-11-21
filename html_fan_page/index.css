@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image:-moz-linear-gradient(to bottom, white 10%, rgb(121, 70, 70) 100% );
+    background-image: -webkit-linear-gradient(to bottom, white 10%, rgb(121, 70, 70) 100% );
+    background-image:-o-linear-gradient(to bottom, white 10%, rgb(121, 70, 70) 100% );
+    background-image:linear-gradient(to bottom, white 10%, rgb(121, 70, 70) 100% );
+}
+
+body {
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 95%;
+    padding: 1em;
+    margin: 1em;
+    background: white;
+    background-image:-moz-linear-gradient(to bottom, white 30%, rgb(245, 193, 86, 96) 100% );
+    background-image: -webkit-linear-gradient(to bottom, white 30%, rgb(245, 193, 86, 96) 100% );
+    background-image:-o-linear-gradient(to bottom, white 30%, rgb(245, 193, 86, 96) 100% );
+    background-image:linear-gradient(to bottom, white 40%, rgb(245, 193, 86, 96) 100% );
+
+}
+
+h1 {
+    text-align: center;
+    /* background: rgb(121, 70, 70); */
+    font-size: 6em;
+    background-image:-moz-linear-gradient(to top, white 10%, rgb(121, 70, 70) 100% );
+    background-image: -webkit-linear-gradient(to top, white 10%, rgb(121, 70, 70) 100% );
+    background-image:-o-linear-gradient(to top, white 10%, rgb(121, 70, 70) 100% );
+    background-image:linear-gradient(to top, white 10%, rgb(121, 70, 70) 100% );
+}
+
+h2 {
+    text-align: center;
+    background: rgb(121, 70, 70);
+    letter-spacing: 2em;
+    color: white;
+    font-size: 1.25em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+h3 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: .1em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+th {
+    border: 3px solid black;
+    text-align: center;
+    background: rgb(121, 70, 70);
+    font-size: 1.5em;
+}
+
+iframe {
+    display:block;
+    margin: 0 auto;
+}
+
+
